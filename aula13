@@ -1,0 +1,86 @@
+//Exercicio 1
+/*let filme = {
+    diretor: "Scott M. Gimple.",
+    nome: "The Walking Dead",
+    data: "31 de outubro de 2010",
+    elenco: ["Norman Reedus", "Daryl Dixon", "Andrew Lincoln", "Rick Grimes", "Negan"],
+    assiste: "ja assisti"
+};
+console.log(filme.diretor);
+console.log(filme["nome"]);
+console.log(filme["data"]);
+console.log(filme["elenco"]);
+console.log(filme["assite"]);
+
+//EXERCICIO 2
+
+let pessoa = {
+    nome: "Bruno de Freitas ",
+    idade: " 16 ",
+    genero: " Masculino ",
+    musica: " phonk ",
+}
+console.log("O nome dessa pessoa é", pessoa.nome, "ela tem", pessoa.idade, "anos e gosta muito de", pessoa.musica);
+
+
+let filme = {
+    diretor: "Scott M. Gimple.",
+    nome: "The Walking Dead",
+    data: "31 de outubro de 2010",
+    elenco: ["Norman Reedus", "Daryl Dixon", "Andrew Lincoln", "Rick Grimes", "Negan"],
+    assiste: "ja assisti"
+}
+personagens = "Norman Reedus", "Daryl Dixon", "Andrew Lincoln", "Rick Grimes", "Negan"
+console.log(filme.elenco[0]);
+console.log(filme.elenco[1]);
+console.log(filme.elenco[2]);
+console.log(filme.elenco[3]);
+console.log(filme.elenco[4]);
+console.log(filme.elenco[0] = "xuxa");
+console.log(filme.elenco);
+
+
+const usuario = {
+    nome: 'prof',
+    idade: '25',
+    email: 'prof@gmail.com.br',
+    cidade: 'Sao Paulo'
+}
+
+const novoUsuario = {
+    ...usuario,
+    nome: 'joao',
+idade: 28
+}
+console.log(usuario);
+console.log(novoUsuario);
+
+const listadeNomes = ["Mika", "Paula", "Vitor"]
+
+const copialistadeNomes = [...listadeNomes]
+
+console.log(copialistadeNomes) //["mika", "paula", "vitor"]
+
+let pessoa = {
+    nome: "Bruno de Freitas ",
+    idade: " 16 ",
+    genero: " Masculino ",
+    musica: " phonk ",
+};
+function novapessoa(){
+novapessoa = {...pessoa, comidasPreferidas: ['churrasco', 'lasanha', 'maça']};
+console.log("O nome dessa pessoa é", novapessoa, "e suas comidas preferidas sao", comidasPreferidas);
+};
+console.log(pessoa)
+console.log(novapessoa.comidasPreferidas);*/
+//
+
+
+function lerobjetospessoas(objeto){
+    let novoobjeto = {...objeto}
+
+    novoobjeto.comidasPreferidas = ["comida1", "comida2", "comida3"];
+    novoobjeto.melhorAmigo = {nome:"nome do melhor amigo", idade:17};
+    console.log('O nome da pessoa é $ {novoobjeto.nome} e suas comidas preferidas sao ${novoobjeto.comidasPreferidas[0],
+  
+};
